@@ -69,6 +69,7 @@ class GA4GH::Graph::Dump2RDF
       "@prefix : <#{PREFIX}/ontology#> .",
       "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .",
       "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .",
+      "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .",
       ""
     ]
   end
@@ -629,6 +630,7 @@ if __FILE__ == $0
 
   puts GA4GH::Graph::Dump2RDF.prefix
   GA4GH::Graph::TABLES.each do |klass|
+    $stderr.puts("Converting #{klass} ...")
     Object.const_get("GA4GH::Graph::#{klass}").new("#{dump.dir}/#{klass}")
   end
 end
