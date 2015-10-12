@@ -1,0 +1,893 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://ga4gh.org/graph/rdf/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ga4gh.org/graph/rdf/Allele/0>
+    :name "ref" ;
+    :variantSetID <http://ga4gh.org/graph/rdf/VariantSet/0> ;
+    a :Allele ;
+    rdfs:label "Allele/0" .
+
+<http://ga4gh.org/graph/rdf/Allele/1>
+    :name "GI528476558" ;
+    :variantSetID <http://ga4gh.org/graph/rdf/VariantSet/1> ;
+    a :Allele ;
+    rdfs:label "Allele/1" .
+
+<http://ga4gh.org/graph/rdf/Allele/2>
+    :name "GI262359905" ;
+    :variantSetID <http://ga4gh.org/graph/rdf/VariantSet/2> ;
+    a :Allele ;
+    rdfs:label "Allele/2" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/0/0>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/0> ;
+    :length 81189 ;
+    :pathItemIndex 0 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/0/0" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/0>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1927 ;
+    :pathItemIndex 0 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/0" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/1>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 10 ;
+    :pathItemIndex 1 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/1> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/1" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/10>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 10 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/5> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/10" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/11>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 11 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 23578 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/11" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/12>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 13 ;
+    :pathItemIndex 12 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/6> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/12" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/13>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 2 ;
+    :pathItemIndex 13 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 23591 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/13" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/14>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 14 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/7> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/14" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/15>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 2 ;
+    :pathItemIndex 15 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 23594 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/15" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/16>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 16 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/8> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/16" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/17>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 9871 ;
+    :pathItemIndex 17 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 23597 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/17" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/18>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 2 ;
+    :pathItemIndex 18 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/9> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/18" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/19>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 2564 ;
+    :pathItemIndex 19 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 33469 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/19" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/2>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 6579 ;
+    :pathItemIndex 2 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 1955 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/2" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/20>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 20 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/10> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/20" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/21>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 18656 ;
+    :pathItemIndex 21 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 36034 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/21" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/22>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 18 ;
+    :pathItemIndex 22 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/11> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/22" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/23>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1676 ;
+    :pathItemIndex 23 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 54709 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/23" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/24>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 22 ;
+    :pathItemIndex 24 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/12> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/24" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/25>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 24780 ;
+    :pathItemIndex 25 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 56409 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/25" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/3>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 9 ;
+    :pathItemIndex 3 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 8536 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/3" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/4>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 4 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/2> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/4" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/5>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 8891 ;
+    :pathItemIndex 5 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 8546 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/5" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/6>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 6 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/3> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/6" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/7>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 6127 ;
+    :pathItemIndex 7 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 17438 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/7" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/8>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 1 ;
+    :pathItemIndex 8 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/4> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/8" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/1/9>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/1> ;
+    :length 11 ;
+    :pathItemIndex 9 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 23566 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/1/9" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/2/0>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/2> ;
+    :length 2 ;
+    :pathItemIndex 0 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/13> ;
+    :start 0 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/2/0" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/2/1>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/2> ;
+    :length 79262 ;
+    :pathItemIndex 1 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 81188 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/2/1" .
+
+<http://ga4gh.org/graph/rdf/AllelePathItem/2/2>
+    :alleleID <http://ga4gh.org/graph/rdf/Allele/2> ;
+    :length 1925 ;
+    :pathItemIndex 2 ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 1926 ;
+    a :AllelePathItem ;
+    rdfs:label "AllelePathItem/2/2" .
+
+<http://ga4gh.org/graph/rdf/FASTA/0>
+    :fastaURI <file://output/deploy/BRCA1/camel/database.fa> ;
+    a :FASTA ;
+    rdfs:label "FASTA/0" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/0>
+    :side1Position 1926 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/1> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/0" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/1>
+    :side1Position 1955 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 9 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/1> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/1" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/10>
+    :side1Position 23578 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/5> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/10" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/11>
+    :side1Position 23578 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/6> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/11" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/12>
+    :side1Position 23591 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 12 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/6> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/12" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/13>
+    :side1Position 23592 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/7> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/13" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/14>
+    :side1Position 23594 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/7> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/14" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/15>
+    :side1Position 23595 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/8> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/15" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/16>
+    :side1Position 23597 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/8> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/16" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/17>
+    :side1Position 33467 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/9> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/17" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/18>
+    :side1Position 33469 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 1 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/9> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/18" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/19>
+    :side1Position 36032 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/10> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/19" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/2>
+    :side1Position 8533 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 8536 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/2" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/20>
+    :side1Position 36034 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/10> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/20" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/21>
+    :side1Position 54689 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/11> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/21" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/22>
+    :side1Position 54709 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 17 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/11> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/22" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/23>
+    :side1Position 56384 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/12> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/23" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/24>
+    :side1Position 56409 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 21 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/12> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/24" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/25>
+    :side1Position 81188 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 1 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/13> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/25" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/3>
+    :side1Position 8544 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/2> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/3" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/4>
+    :side1Position 8546 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/2> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/4" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/5>
+    :side1Position 17436 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/3> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/5" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/6>
+    :side1Position 17438 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/3> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/6" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/7>
+    :side1Position 23564 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/4> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/7" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/8>
+    :side1Position 23566 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward true ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/4> ;
+    :side2StrandIsForward false ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/8" .
+
+<http://ga4gh.org/graph/rdf/GraphJoin/9>
+    :side1Position 23576 ;
+    :side1SequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :side1StrandIsForward false ;
+    :side2Position 0 ;
+    :side2SequenceID <http://ga4gh.org/graph/rdf/Sequence/5> ;
+    :side2StrandIsForward true ;
+    a :GraphJoin ;
+    rdfs:label "GraphJoin/9" .
+
+<http://ga4gh.org/graph/rdf/Reference/0>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "ref" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/0> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/0" .
+
+<http://ga4gh.org/graph/rdf/Reference/1>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_1927_10" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/1> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/1" .
+
+<http://ga4gh.org/graph/rdf/Reference/10>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_36015_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/10> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/10" .
+
+<http://ga4gh.org/graph/rdf/Reference/11>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_54672_18" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/11> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/11" .
+
+<http://ga4gh.org/graph/rdf/Reference/12>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_56366_22" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/12> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/12" .
+
+<http://ga4gh.org/graph/rdf/Reference/13>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI262359905_0_2" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/13> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/13" .
+
+<http://ga4gh.org/graph/rdf/Reference/2>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_8525_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/2> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/2" .
+
+<http://ga4gh.org/graph/rdf/Reference/3>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_17417_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/3> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/3" .
+
+<http://ga4gh.org/graph/rdf/Reference/4>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_23545_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/4> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/4" .
+
+<http://ga4gh.org/graph/rdf/Reference/5>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_23557_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/5> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/5" .
+
+<http://ga4gh.org/graph/rdf/Reference/6>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_23559_13" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/6> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/6" .
+
+<http://ga4gh.org/graph/rdf/Reference/7>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_23574_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/7> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/7" .
+
+<http://ga4gh.org/graph/rdf/Reference/8>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_23577_1" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/8> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/8" .
+
+<http://ga4gh.org/graph/rdf/Reference/9>
+    :isDerived false ;
+    :isPrimary false ;
+    :length 0 ;
+    :md5checksum "" ;
+    :name "GI528476558_33449_2" ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    :sequenceID <http://ga4gh.org/graph/rdf/Sequence/9> ;
+    :start 0 ;
+    :updateTime "2015-07-20"^^xsd:date ;
+    a :Reference ;
+    rdfs:label "Reference/9" .
+
+<http://ga4gh.org/graph/rdf/ReferenceSet/0>
+    :assemblyID "ref" ;
+    :description "hal2sg output/out3/BRCA1/zipCmis2Min20Ed2Range100.hal" ;
+    :isDerived false ;
+    :ncbiTaxonID <http://identifiers.org/taxonomy/> ;
+    :referenceID <http://ga4gh.org/graph/rdf/Reference/0>, <http://ga4gh.org/graph/rdf/Reference/1>, <http://ga4gh.org/graph/rdf/Reference/10>, <http://ga4gh.org/graph/rdf/Reference/11>, <http://ga4gh.org/graph/rdf/Reference/12>, <http://ga4gh.org/graph/rdf/Reference/13>, <http://ga4gh.org/graph/rdf/Reference/2>, <http://ga4gh.org/graph/rdf/Reference/3>, <http://ga4gh.org/graph/rdf/Reference/4>, <http://ga4gh.org/graph/rdf/Reference/5>, <http://ga4gh.org/graph/rdf/Reference/6>, <http://ga4gh.org/graph/rdf/Reference/7>, <http://ga4gh.org/graph/rdf/Reference/8>, <http://ga4gh.org/graph/rdf/Reference/9> ;
+    a :ReferenceSet ;
+    rdfs:label "ReferenceSet/0" .
+
+<http://ga4gh.org/graph/rdf/Sequence/0>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 81189 ;
+    :md5checksum "e31c0d78cfa7abbaee7ae1642dfe8d49" ;
+    :sequenceRecordName "ref" ;
+    a :Sequence ;
+    rdfs:label "Sequence/0" .
+
+<http://ga4gh.org/graph/rdf/Sequence/1>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 10 ;
+    :md5checksum "3f5d4e86f68b8d8a388971469d2d1287" ;
+    :sequenceRecordName "GI528476558_1927_10" ;
+    a :Sequence ;
+    rdfs:label "Sequence/1" .
+
+<http://ga4gh.org/graph/rdf/Sequence/10>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "0d61f8370cad1d412f80b84d143e1257" ;
+    :sequenceRecordName "GI528476558_36015_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/10" .
+
+<http://ga4gh.org/graph/rdf/Sequence/11>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 18 ;
+    :md5checksum "27b8bee4b7be728af6e93842c19e5426" ;
+    :sequenceRecordName "GI528476558_54672_18" ;
+    a :Sequence ;
+    rdfs:label "Sequence/11" .
+
+<http://ga4gh.org/graph/rdf/Sequence/12>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 22 ;
+    :md5checksum "b7624f2b47e7032995ac1780b533d5f3" ;
+    :sequenceRecordName "GI528476558_56366_22" ;
+    a :Sequence ;
+    rdfs:label "Sequence/12" .
+
+<http://ga4gh.org/graph/rdf/Sequence/13>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 2 ;
+    :md5checksum "2de960c6ab3cef39a9a2298fb58e503d" ;
+    :sequenceRecordName "GI262359905_0_2" ;
+    a :Sequence ;
+    rdfs:label "Sequence/13" .
+
+<http://ga4gh.org/graph/rdf/Sequence/2>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "7fc56270e7a70fa81a5935b72eacbe29" ;
+    :sequenceRecordName "GI528476558_8525_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/2" .
+
+<http://ga4gh.org/graph/rdf/Sequence/3>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "0d61f8370cad1d412f80b84d143e1257" ;
+    :sequenceRecordName "GI528476558_17417_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/3" .
+
+<http://ga4gh.org/graph/rdf/Sequence/4>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "7fc56270e7a70fa81a5935b72eacbe29" ;
+    :sequenceRecordName "GI528476558_23545_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/4" .
+
+<http://ga4gh.org/graph/rdf/Sequence/5>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "b9ece18c950afbfa6b0fdbfa4ff731d3" ;
+    :sequenceRecordName "GI528476558_23557_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/5" .
+
+<http://ga4gh.org/graph/rdf/Sequence/6>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 13 ;
+    :md5checksum "e12cd9842fbeb0cfe37ebfce0878f910" ;
+    :sequenceRecordName "GI528476558_23559_13" ;
+    a :Sequence ;
+    rdfs:label "Sequence/6" .
+
+<http://ga4gh.org/graph/rdf/Sequence/7>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "dfcf28d0734569a6a693bc8194de62bf" ;
+    :sequenceRecordName "GI528476558_23574_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/7" .
+
+<http://ga4gh.org/graph/rdf/Sequence/8>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 1 ;
+    :md5checksum "7fc56270e7a70fa81a5935b72eacbe29" ;
+    :sequenceRecordName "GI528476558_23577_1" ;
+    a :Sequence ;
+    rdfs:label "Sequence/8" .
+
+<http://ga4gh.org/graph/rdf/Sequence/9>
+    :fastaID <http://ga4gh.org/graph/rdf/FASTA/0> ;
+    :length 2 ;
+    :md5checksum "df1f3edb9115acb0a1e04209b7a9937b" ;
+    :sequenceRecordName "GI528476558_33449_2" ;
+    a :Sequence ;
+    rdfs:label "Sequence/9" .
+
+<http://ga4gh.org/graph/rdf/VariantSet/0>
+    :name "ref" ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    a :VariantSet ;
+    rdfs:label "VariantSet/0" .
+
+<http://ga4gh.org/graph/rdf/VariantSet/1>
+    :name "GI528476558" ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    a :VariantSet ;
+    rdfs:label "VariantSet/1" .
+
+<http://ga4gh.org/graph/rdf/VariantSet/2>
+    :name "GI262359905" ;
+    :referenceSetID <http://ga4gh.org/graph/rdf/ReferenceSet/0> ;
+    a :VariantSet ;
+    rdfs:label "VariantSet/2" .
+
