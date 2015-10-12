@@ -1,0 +1,295 @@
+{
+  "path": {
+    "segments": [
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1927"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "1",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "10"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "1955",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "6579"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "8536",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "9"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "2",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "8546",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "8891"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "3",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "17438",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "6127"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "4",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "23566",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "11"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "5",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "23578",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "6",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "13"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "23591",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "2"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "7",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "23594",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "2"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "8",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "23597",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "9871"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "9",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "2"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "33469",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "2564"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "10",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "36034",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "18656"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "11",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "18"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "54709",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "1676"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "0",
+            "sequenceId": "12",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "22"
+      },
+      {
+        "start": {
+          "base": {
+            "position": "56409",
+            "sequenceId": "0",
+            "referenceName": null
+          },
+          "strand": "POS_STRAND"
+        },
+        "length": "24780"
+      }
+    ]
+  },
+  "variantSetId": "1",
+  "id": "1",
+  "name": "GI528476558"
+}

@@ -1,0 +1,74 @@
+{
+  "head": {
+    "link": [
+
+    ],
+    "vars": [
+      "s",
+      "p",
+      "o"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/Allele/1"
+        },
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Allele/1"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/Allele/1"
+        },
+        "p": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/ontology#variantSetID"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/VariantSet/1"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/Allele/1"
+        },
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/ontology#Allele"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/Allele/1"
+        },
+        "p": {
+          "type": "uri",
+          "value": "http://ga4gh.org/graph/rdf/ontology#name"
+        },
+        "o": {
+          "type": "literal",
+          "value": "GI528476558"
+        }
+      }
+    ]
+  }
+}
