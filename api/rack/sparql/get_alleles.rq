@@ -1,0 +1,7 @@
+PREFIX : <http://ga4gh.org/graph/rdf/ontology#>                                                                        SELECT *
+FROM <http://ga4gh.org/rdf/{{graph}}>
+WHERE {
+  ?s a :Allele ;
+   rdfs:label "{{alleleID}}" ;
+   ?p ?o .
+}
