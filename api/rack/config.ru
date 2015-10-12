@@ -61,7 +61,7 @@ POST	   /#{API_VERSION}/variantsets/search
     template = File.read("sparql/get_alleles.rq")
     config = {
       :graph => GRAPH_NAME,
-      :alleleID => "Allele/#{params[:alleleID]}",
+      :allele => "Allele/#{params[:alleleID]}",
     }
     return sparql_query(template, config)
   end

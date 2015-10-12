@@ -1,7 +1,20 @@
-PREFIX : <http://ga4gh.org/graph/rdf/ontology#>                                                                        SELECT *
+PREFIX : <http://ga4gh.org/graph/rdf/ontology#>
+SELECT ?variantSet ?name ?position ?sequenceId1 ?length
 FROM <http://ga4gh.org/rdf/{{graph}}>
 WHERE {
-  ?s a :Allele ;
-   rdfs:label "{{alleleID}}" ;
-   ?p ?o .
+  ?alleleId a :Allele ;
+    rdfs:label "{{allele}}" ;
+    :variantSetID ?variantSetId ;
+    :name ?name .
+  ?variantSetId rdfs:label ?variantSet .
+  ?allelePathItemId :alleleID ?alleleId ;
+    :length ?length ;
+    :start ?position ;
+    :pathItemIndex ?index ;
+    :sequenceID ?sequenceId1 .
+  ?graphJoinId :side1SequenceID ?sequenceId1 ;
+    :side2SequenceID ?sequenceId2 ;
+    :side1StrandIsForward ?strand .
+  FILTER (?sequenceId1 != ?sequenceId2)
 }
+ORDER BY ?index
