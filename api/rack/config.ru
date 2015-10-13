@@ -57,13 +57,39 @@ POST	   /#{API_VERSION}/variantsets/search
     HELP
   end
 
-  get "/#{API_VERSION}/alleles/:alleleID" do
+  get "/#{API_VERSION}/alleles/:allele" do
     template = File.read("sparql/get_alleles.rq")
     config = {
       :graph => GRAPH_NAME,
-      :allele => "Allele/#{params[:alleleID]}",
+      :allele => "Allele/#{params[:allele]}",
     }
-    return sparql_query(template, config)
+    result = sparql_query(template, config)
+
+    # ad hoc JSON transformation ...
+    hash = {
+      "path" => {
+       "segments" => []
+      }
+    }
+    json = JSON.parse(result)
+    json["results"]["bindings"].each do |x|
+      hash["id"] = params[:allele]
+      hash["variantSetId"] = x["variantSet"]["value"][/\d+/]
+      hash["name"] = x["name"]["value"]
+      data = {
+        "start" => {
+          "base" => {
+            "position" => x["position"]["value"],
+            "sequenceId" => x["sequenceId"]["value"][/\d+/],
+            "referenceName" => "null",
+          },
+          "strand" => "TO BE IMPLEMENTED",
+        },
+	"length" => x["length"]["value"]
+      }
+      hash["path"]["segments"] << data
+    end
+    return JSON.pretty_generate(hash)
   end
 
 end

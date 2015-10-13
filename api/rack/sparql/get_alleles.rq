@@ -1,5 +1,5 @@
 PREFIX : <http://ga4gh.org/graph/rdf/ontology#>
-SELECT ?variantSet ?name ?position ?sequenceId1 ?length
+SELECT DISTINCT ?variantSet ?name ?position ?sequenceId ?length
 FROM <http://ga4gh.org/rdf/{{graph}}>
 WHERE {
   ?alleleId a :Allele ;
@@ -16,5 +16,6 @@ WHERE {
     :side2SequenceID ?sequenceId2 ;
     :side1StrandIsForward ?strand .
   FILTER (?sequenceId1 != ?sequenceId2)
+  ?sequenceId1 rdfs:label ?sequenceId .
 }
 ORDER BY ?index
